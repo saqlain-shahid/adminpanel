@@ -41,7 +41,15 @@ a{
             display: none;
         } 
     >div{
-        
+        margin: 2rem 3rem;
+        >h5{
+            @include heading(2px);
+            opacity: 0.8;
+            margin: 1rem 0;
+        }
+        >ul{
+            @include flex(column, unset, unset, 0.5rem)
+        }
     }      
     }
 }

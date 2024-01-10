@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { RiDashboardFill, RiShoppingBag3Fill } from "react-icons/ri";
-import { AiFillFileText, AiOutlineTransaction } from "react-icons/ai";
+import { AiFillFileText } from "react-icons/ai";
 import { IoIosPeople } from "react-icons/io";
 
 const AdminSidebar = () => {
