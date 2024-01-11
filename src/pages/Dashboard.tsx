@@ -4,10 +4,12 @@ import AdminSidebar from '../components/AdminSidebar'
 const Dashboard = () => {
   return (
     <div className='adminContainer'>
-        {/* sidebar */}
         <AdminSidebar/>
-        {/* main */}
-        <main>saqqqq</main>
+        <main className='dashboard'>
+            <div className='bar'>
+                saq
+            </div>
+        </main>
     </div>
   )
 }
