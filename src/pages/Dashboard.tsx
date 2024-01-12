@@ -1,5 +1,6 @@
 import { BsSearch } from 'react-icons/bs'
 import AdminSidebar from '../components/AdminSidebar'
+import { FaRegBell } from 'react-icons/fa'
 
 
 const Dashboard = () => {
@@ -9,7 +10,10 @@ const Dashboard = () => {
         <main className='dashboard'>
             <div className='bar'>
                 <BsSearch/>
-                <input type="text" placeholder='Search queries' id="" />
+                <input type="text" placeholder='Search queries' />
+                <FaRegBell/>
+                <img src="" alt="" />
+                
             </div>
         </main>
     </div>
