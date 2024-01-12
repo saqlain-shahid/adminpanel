@@ -1,3 +1,4 @@
+import { BsSearch } from 'react-icons/bs'
 import AdminSidebar from '../components/AdminSidebar'
 
 
@@ -7,7 +8,8 @@ const Dashboard = () => {
         <AdminSidebar/>
         <main className='dashboard'>
             <div className='bar'>
-                saq
+                <BsSearch/>
+                <input type="text" placeholder='Search queries' id="" />
             </div>
         </main>
     </div>
