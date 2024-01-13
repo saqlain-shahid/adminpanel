@@ -1,7 +1,7 @@
 import { BsSearch } from 'react-icons/bs'
 import AdminSidebar from '../components/AdminSidebar'
 import { FaRegBell } from 'react-icons/fa'
-
+import userImg from '../assets/admin.png'
 
 const Dashboard = () => {
   return (
@@ -12,7 +12,7 @@ const Dashboard = () => {
                 <BsSearch/>
                 <input type="text" placeholder='Search queries' />
                 <FaRegBell/>
-                <img src="" alt="" />
+                <img src={userImg} alt="" />
                 
             </div>
         </main>
