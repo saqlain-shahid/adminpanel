@@ -3,7 +3,7 @@ import AdminSidebar from "../components/AdminSidebar"
 
 const Transactions = () => {
   return (
-    <div className='adminContainer'>
+    <div className='admin-container'>
     {/* sidebar */}
     <AdminSidebar/>
     {/* main */}
