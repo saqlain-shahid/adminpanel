@@ -54,7 +54,7 @@ const Dashboard = () => {
                 <div className="dashboard-categories">
                   <h2>Inventories</h2>
                   <div>
-                    <CategoryItem heading='Laptops' value={70} color='hsl(169, 100%, 50%)'/>
+                    <CategoryItem heading='Laptops' value={70} color='hsl(19, 100%, 50%)'/>
                   </div>
                 </div>
             </section>
